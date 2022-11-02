@@ -1,0 +1,104 @@
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px auto;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px auto;
+  }
+  .card {
+    min-width: 50vw;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px auto;
+  }
+  .card {
+    min-width: 50vw;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  background-color: #84a59d;
+  margin: 0 auto;
+  height: 100%;
+  padding: 20px 0;
+}
+
+.card {
+  margin: 20px auto;
+  padding: 40px;
+  background-color: #f6bd60bb;
+  width: 50vw;
+  text-align: center;
+  border-radius: 0px 0px 10px 10px;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.258);
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  padding: 15px;
+}
+
+img {
+  height: 150px;
+  width: 130px;
+  border-radius: 50%;
+  padding: 30px;
+}
+
+#btn-about-me {
+  text-decoration: none;
+  color: black;
+  background-color: #84a59d;
+  padding: 10px;
+  border-radius: 5px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+
+#btn-about-me:hover {
+  text-decoration: none;
+  color: rgb(224, 218, 218);
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.200);
+}
+
+ul {
+  list-style: none;
+}
+
+.logos > li{
+  display: inline-block;
+  margin: 20px 10px 10px 10px;
+}
+
+i {
+  color: #5d8077;
+  text-decoration: none;
+  font-size: 30px;
+}
